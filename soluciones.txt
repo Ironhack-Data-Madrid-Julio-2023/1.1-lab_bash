@@ -1,1 +1,17 @@
 Echo 'hello world'
+mkdir new_dir
+rm -r new_dir
+mkdir lorem-copy
+cd lorem
+cp sed.txt /Users/nombre/ironhack/1.1-lab_bash/lorem-copy
+cat sed.txt
+cat at.txt && cat lorem.txt
+head -3 sed.txt
+echo 'Homo homini lupus.' >> sed.txt
+tail -3 sed.txt
+whoami
+pwd
+ls *.txt
+wc -l sed.txt
+wc lorem*
+grep -o 'et' at.txt | wc -l
