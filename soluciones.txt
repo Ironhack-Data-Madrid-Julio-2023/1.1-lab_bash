@@ -33,6 +33,13 @@ ls *.txt
 cd lorem
 wc sed.txt
 
+find . -name "lorem*" | grep -c '^'
+cd lorem
+find . -name "lorem*" | grep -c '^'
+
+cd lorem
+
+
 
 
 
