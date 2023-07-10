@@ -1,1 +1,3 @@
 + echo 'hello world'
++ mkdir Crea un directorio nuevo llamado new_dir. 
++ rmdir eliminar el directorio new_dir
