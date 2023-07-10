@@ -1,1 +1,18 @@
 + echo 'hello world'
++ mkdir new_dir
++ rm -r new_dir
++ cd lorem
++ mkdir lorem copy
++ cp sed.txt /Volumes/Esteban/IRONHACK/1.1-lab_bash/lorem/lorem-copy
++ cat sed.txt
++ cat lorem.txt
++ cd lorem-copy
++ tile -n3 sed.txt
++ echo 'homo homini lupus'. >> sed.txt
++ who i am
++ pwd
++ cd ..
++ ls *.txt
++ wc -l sed.txt
++ find .-type f-name "lorem"
++ find . -name "et" | wc -l at.txt
