@@ -10,6 +10,12 @@ cat sed.txt
 * head -n 3 sed.txt
 *echo Homo homini lupus >> sed.txt
 *tail -n 3 sed.txt
-* who i am
+* whoami
 *pwd
 /c/Users/delbr/Desktop/1.1-lab_bash
+*cd lorem
+ls *.txt
+* grep -c  sed.txt
+*find . -type f -name "lorem*" | grep -c 
+* cd lorem
+ grep -o et at.txt | wc -l
