@@ -1,0 +1,15 @@
+1.echo 'Hello World'
+2.mkdir new_dir
+3.copy lorem\sed.txt lorem-copy
+4.cat sed.txt
+5.cat at.txt
+cat lorem.txt
+6.Get-content sed.txt -Head 3
+7.echo Homo homini lupus >> sed.txt
+8.Get-content sed.txt -Tail 3
+9.whoami
+10.pwd
+11.dir lorem\*.txt
+12.(Get-Content sed.txt | Measure-Object -Line).Lines
+13.(Get-ChildItem -Path "1.1-lab_bash" -Filter "lorem*" -File -Recurse).Count
+14.(Get-Content -Path "at.txt" | Select-String -Pattern "et").Count
