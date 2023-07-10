@@ -17,6 +17,33 @@ cat lorem.txt
 cd lorem-copy
 head -n 3 sed.txt
 
+cd lorem-copy
+echo "Homo homini lupus" >> sed.txt
+
+cd lorem-copy
+tail -n 3 sed.txt
+
+whoami
+
+pwd
+
+cd lorem
+ls *.txt
+
+cd lorem
+wc sed.txt
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
