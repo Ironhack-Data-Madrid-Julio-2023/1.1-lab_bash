@@ -1,1 +1,15 @@
-echo 'Hello World'
+echo Hello World
+mkdir new_dir
+rmdir new_dir
+mkdir lorem_copy && cd lorem && cp sed.txt ../lorem_copy && cd ..
+cd lorem && cat sed.txt
+cat at.txt && cat lorem.txt
+cd ../lorem_copy && head -3 sed.txt
+echo ""Homo homini lupus. >> sed.txt
+tail -3 sed.txt
+whoami
+pwd
+cd ../lorem && ls *.txt
+wc -l sed.txt
+ls lorem* | wc -l
+grep -o 'et' at.txt |wc -l
