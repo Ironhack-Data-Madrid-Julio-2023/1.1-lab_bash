@@ -1,2 +1,0 @@
-Ejercicios 8 y 9.He utilizado los comandos comando head -n 3 sed.txt para ostrar las 3 primeras lineas
-Ejercicios 8 y 9.He utilizado los comandos echo >> y tail  -n 3 sed.txt para añadir y mostrar las 3 ultimas lineas

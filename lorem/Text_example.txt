@@ -1,5 +1,0 @@
-Ejercicio 4.He utilizado el comando cp para copiar el archivo
-Ejercicio 5.He utilizado el comando cat para mostrar el archivo
-Ejercicio 6.He utilizado el comando cat para mostrar los archivos
-Ejercicio 12.He utilizado el comando ls *.txt para averiguar los archivos .txt
-Ejercicio 13.He utilizado el comando wc -l para contar el número de líneas del archivo
