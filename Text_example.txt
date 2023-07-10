@@ -1,0 +1,19 @@
+ Hello World
+
+Ejercicio 1
+He utilizado el comando echo1
+Ejercicio 2
+He utilizado mkdir para crear una carpeta2
+Ejercicio 3
+He utilizado el comando rm -r para borrar el directorio
+Ejercicio 4.He utilizado el comando cp para copiar el archivo
+Ejercicio 5.He utilizado el comando cat para mostrar el archivo
+Ejercicio 6.He utilizado el comando cat para mostrar los archivos
+Ejercicio 7.He utilizado el comando head -n 3 sed.txt para ostrar las 3 primeras lineas
+Ejercicios 8 y 9.He utilizado los comandos echo >> y tail  -n 3 sed.txt para añadir y mostrar las 3 ultimas lineas
+Ejercicio 9.He utilizado el comando id-un para averiguar el user
+Ejercicio 11.He utilizado el comando pwd para averiguar el path de my user
+Ejercicio 12.He utilizado el comando ls *.txt para averiguar los archivos .txt
+Ejercicio 13.He utilizado el comando wc -l para contar el número de líneas del archivo
+Ejercicio 14.He utilizado el comando ls lorem* | wc -l para contar el número de archivos que empiezan por Lorem
+Ejercicio 15.He utilizado el comando  grep -o -w 'et' at.txt | wc -l dentro de la carpeta Lorem para contar el número de veces que aparece el string et
