@@ -38,6 +38,7 @@ cd lorem
 find . -name "lorem*" | grep -c '^'
 
 cd lorem
+grep -c "et" at.txt
 
 
 
