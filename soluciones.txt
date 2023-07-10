@@ -1,1 +1,15 @@
-Hello World
+*Hello World
+*mkdir new_dir
+*rm -r new_dir
+*mkdir lorem-copy
+cd lorem
+sed.txt /c/Users/delbr/Desktop/1.1-lab_bash/lorem-copy
+*cd lorem
+cat sed.txt
+* cat at.txt lorem.txt
+* head -n 3 sed.txt
+*echo Homo homini lupus >> sed.txt
+*tail -n 3 sed.txt
+* who i am
+*pwd
+/c/Users/delbr/Desktop/1.1-lab_bash

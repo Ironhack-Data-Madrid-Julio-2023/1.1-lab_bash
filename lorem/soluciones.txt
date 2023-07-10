@@ -1,0 +1,4 @@
+mkdir lorem-copy
+cd lorem
+sed.txt /c/Users/delbr/Desktop/1.1-lab_bash/lorem-copy
+cd lorem
