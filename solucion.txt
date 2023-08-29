@@ -1,0 +1,68 @@
+1. "Hello Word"
+$ echo hello word
+
+2. Crea un directorio nuevo llamado new_dir.
+ mkdir new_dir
+
+
+3. Elimina ese directorio.
+ rm -r  new_dir
+-r para que sea recursivo
+
+4. Copia el archivo sed.txt dentro de la carpeta lorem a la carpeta lorem-copy. TIP: Puede ser necesario crear la carpeta lorem-copy primero.
+lorem-copy
+
+mkdir lorem-copy
+cd lorem
+ls -l
+mv lorem.txt .. 
+
+
+5.Muestra el contenido del archivo sed.txt dentro de la carpeta lorem.
+
+cat sed.txt
+
+6. Muestra el contenido de los archivos at.txt y lorem.txt dentro de la carpeta lorem.
+
+ls -l *.txt
+
+
+7. Visualiza las primeras 3 líneas del archivo sed.txt dentro de la carpeta lorem-copy
+
+cd lorem-copy/
+head -n 3 lorem.txt
+
+8. Añade Homo homini lupus. al final de archivo sed.txt dentro de la carpeta lorem-copy.
+
+vim sed.txt OO copiar lo que quiero
+:w para guardar
+:q para salir
+o segunda opción
+echo "Homo homini lupus" >> sed.txt
+
+
+9. Visualiza las últimas 3 líneas del archivo sed.txt dentro de la carpeta lorem-copy. Deberías ver ahora Homo homini lupus..
+tail -n 3 sed.txt
+
+
+10. Encuentra al usuario activo en el sistema.
+who i am
+usuario root se acede con sudo supero usario
+
+
+11.Encuentra dónde estás en tu sistema de ficheros.
+pwd 
+
+12. Lista los archivos que terminan por .txt en la carpeta lorem.
+Expresión regular 
+ls -l *.txt
+
+13. Cuenta el número de líneas que tiene el archivo sed.txt dentro de la carpeta lorem.
+
+wc -l sed.txt
+
+
+14. Cuenta el número de archivos que empiezan por lorem que están en este directorio y en directorios internos.
+
+
+Cuenta el número de apariciones del string et en at.txt dentro de la carpeta lorem.
